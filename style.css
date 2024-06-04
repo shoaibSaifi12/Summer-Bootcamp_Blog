@@ -1,0 +1,111 @@
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #989aa9;
+    font-size: larger;
+   
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #857878;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.post{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background-color: #f7fcdf;
+    font-size: larger;
+    text-align: center;
+   
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #353333;
+    color: #fff;
+    cursor: pointer;
+    display: grid;
+   
+    
+   
+    
+    
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#post-list {
+    margin-top: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.post-content {
+    color: #666;
+}
